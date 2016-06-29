@@ -16,4 +16,4 @@ git: create_mfnf_git.py
 
 .PHONY: clean
 clean:
-	rm -rf git video.ppm video.webm
+	rm -rf git video.ppm video.webm mfnf.png
