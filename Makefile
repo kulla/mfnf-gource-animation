@@ -9,7 +9,7 @@ video.ppm: git gource.conf mfnf.png
 	gource --load-config gource.conf -r 30 -o video.ppm git
 
 mfnf.png: mfnf.jpg
-	convert $< -resize x200 $@
+	convert $< -resize x250 $@
 
 git: create_mfnf_git.py
 	python3 create_mfnf_git.py
