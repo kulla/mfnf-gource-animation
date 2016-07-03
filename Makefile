@@ -1,6 +1,9 @@
 .PHONY: all
 all: video.webm
 
+final_video.webm: video.webm
+	ffmpeg -i $< -c copy -t 00:01:48 $@
+
 video.webm: video.ppm audio.wav
 	ffmpeg -y -r 30 -f image2pipe -vcodec ppm -i video.ppm \
 		-codec:v libvpx -quality best -cpu-used 0 -b:v 1M \
