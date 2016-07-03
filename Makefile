@@ -6,7 +6,7 @@ video.webm: video.ppm
 		-vcodec libvpx -b 10000K video.webm
 
 video.ppm: git gource.conf mfnf.png
-	gource --load-config gource.conf -r 30 -o video.ppm git
+	gource --load-config gource.conf -r 30 -o video.ppm -1920x1080 git
 
 mfnf.png: mfnf.jpg
 	convert $< -resize x250 $@
