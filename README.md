@@ -2,6 +2,6 @@ Script for creating a visualization with [gource](http://gource.io/) of the deve
 
 ## Licensing
 
-* All the source code is licensed under a [CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/). So feel free to use the code in each way you want.
+* The source files [`create_mfnf_git.py`](create_mfnf_git.py) and [`Makefile`](Makefile) are licensed under a [CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/). So feel free to use the code in each way you want.
 * Music: [FREE The Passion HiFi - Me In Your Life - Soulful Beat / Instrumental](https://soundcloud.com/freehiphopbeatsforyou/free-the-passion-hifi-me-in-your-life-soulful-beat-instrumental) ([archived website of track](https://web.archive.org/web/20160628162519/https://soundcloud.com/freehiphopbeatsforyou/free-the-passion-hifi-me-in-your-life-soulful-beat-instrumental)) by [Free Hip Hop Beats!!!](https://soundcloud.com/freehiphopbeatsforyou) licensed under [CC-BY 3.0](http://creativecommons.org/licenses/by/3.0/).
 * Logo: [File:Titelbild MFNF mit Serlo-Logo.jpg](https://commons.wikimedia.org/wiki/File:Titelbild_MFNF_mit_Serlo-Logo.jpg) by [Olivier Vidal](https://commons.wikimedia.org/wiki/User:Olivier_Vidal) and [Serlo / Gesellschaft für freie Bildung e.V.](http://serlo.org). The logo is licensed under a [CC-BY-SA 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/deed.en).
